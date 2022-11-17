@@ -3,7 +3,7 @@ const registerButton = document.getElementById("register-button-id");
 
 loginButton.addEventListener("click", () => {
   console.log("Worjing");
-  document.location = "Login.html";
+  document.location = "../public/Login.html";
 });
 
 registerButton.addEventListener("click", () => {

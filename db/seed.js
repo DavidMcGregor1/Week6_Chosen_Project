@@ -1,10 +1,6 @@
 const { User } = require("../models/index");
 const users = require("../src/registerScript");
 const db = require("./db");
-let inputUserName = "bob";
-let inputEmail = "bob@gmail.com";
-let inputPassword = "BobsPassword";
-const userNameString = require("../src/script");
 
 console.log("PLEASSSE WORK");
 
@@ -14,20 +10,7 @@ async function seed() {
     force: true,
   });
 
-  // const u1 = await User.create({
-  //   username: "David",
-  //   email: "David@gmail.com",
-  //   password: "Password1",
-  // });
-  // console.log(u1.toJSON());
-
-  for (i = 0; i < 10; i++) {
-    await User.create({
-      username: `${userNameString}`,
-      email: `${inputEmail}`,
-      password: `${inputPassword}`,
-    });
-  }
+  console.log(users);
 
   await User.bulkCreate(
     [

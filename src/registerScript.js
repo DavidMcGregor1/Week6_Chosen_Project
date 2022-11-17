@@ -1,5 +1,5 @@
 let users = [];
-// example {id:1592304983049, title: 'Deadpool', year: 2015}
+
 const addData = (ev) => {
   ev.preventDefault(); //to stop the form submitting
   let aUser = {
@@ -13,7 +13,7 @@ const addData = (ev) => {
   //document.querySelector('form').reset();
 
   //for display purposes only
-  console.warn("added", { users });
+  console.log("added", { users });
   // let pre = document.querySelector('#msg pre');
   // pre.textContent = '\n' + JSON.stringify(users, '\t', 2);
 
