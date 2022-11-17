@@ -1,0 +1,49 @@
+* {box-sizing: border-box;}
+
+body {
+  background-image: url(https://img.freepik.com/free-photo/background_53876-32169.jpg?w=360);
+}
+
+/* Style the input container */
+.input-container {
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+/* Style the form icons */
+.icon {
+  padding: 10px;
+  background-image: url(https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/325/lizard_1f98e.png);
+
+  padding-right: 150px;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+/* Style the input fields */
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-field:focus {
+  border: 2px solid rgb(13, 150, 36);
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: rgb(13, 150, 36);
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}

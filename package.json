@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "express": "^4.18.2",
+    "sequelize": "^6.25.6",
+    "sqlite3": "^5.1.2"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "seed": "cd db && node seed.js"
+  },
+  "name": "week6_chosen_project",
+  "version": "1.0.0",
+  "main": "script.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidMcGregor1/Week6_Chosen_Project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DavidMcGregor1/Week6_Chosen_Project/issues"
+  },
+  "homepage": "https://github.com/DavidMcGregor1/Week6_Chosen_Project#readme",
+  "description": ""
+}

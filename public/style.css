@@ -1,0 +1,77 @@
+#index-body {
+    margin: 0;
+   
+    
+    /* background-image: url(https://img.freepik.com/premium-photo/smooth-empty-grey-studio-well-use-as-background_1258-3149.jpg?w=2000); */
+    background-image: url(https://img.freepik.com/free-photo/background_53876-32169.jpg?w=360);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+
+    display: grid;
+    grid-template-rows: auto 1fr ;
+    grid-gap: 16px;
+}
+
+.headerLarge {
+    font-size: 60px;
+}
+
+/* #main-id {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+} */
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    
+     overflow-y: scroll;
+    justify-content: center; 
+
+}
+
+#maintext {
+    text-align: center;
+    grid-column: 2 / span 3;
+    text-decoration: solid;
+    font-size: 30px;
+    font-weight: bold;
+    color: #15b410;
+    
+    
+}
+
+#login-button-id {
+    grid-column: 3;
+    grid-row: 5;
+}
+
+#register-button-id {
+    grid-column: 3;
+    grid-row: 3;
+}
+
+h1 {
+    text-align: center;
+    font-size: 42px;
+    background: #12c2e9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #09e0bc, #2da551, #15b410);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #09e0bc, #2da551, #15b410); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 10px 20px;
+    margin-left: -20px;
+    margin-top: 0;
+    position: relative;
+    width: 100vw;
+      /*from droping box shadow at the bottom of header*/
+   -moz-box-shadow: 1px 1px 3px #292929;
+   -webkit-box-shadow: 1px 1px 3px #292929;
+                box-shadow: 1px 1px 3px #292929;
+   color: #454545;
+   text-shadow: 0 1px 0 white;
+}
