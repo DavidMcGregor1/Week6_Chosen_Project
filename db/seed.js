@@ -1,5 +1,5 @@
+/* global console , $ , document */
 const { User } = require("../models/index");
-const users = require("../src/registerScript");
 const db = require("./db");
 
 console.log("PLEASSSE WORK");
@@ -9,8 +9,6 @@ async function seed() {
   await db.sync({
     force: true,
   });
-
-  console.log(users);
 
   await User.bulkCreate(
     [

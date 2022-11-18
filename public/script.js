@@ -18,6 +18,8 @@ let repeatPasswordString = "";
 usernameInput.addEventListener("input", () => {
   let value = usernameInput.value;
   userNameString += value;
+  console.log(userNameString);
+  console.log(value);
 });
 
 emailInput.addEventListener("click", () => {

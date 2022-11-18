@@ -5,7 +5,7 @@
     "sqlite3": "^5.1.2"
   },
   "scripts": {
-    "start": "node server.js",
+    "start": "node src/server.js",
     "seed": "cd db && node seed.js"
   },
   "name": "week6_chosen_project",
